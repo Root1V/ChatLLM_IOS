@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993A4D032CB5CF0600FBE490 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993A4D022CB5CF0600FBE490 /* ChatMessage.swift */; };
+		995B7D482CB5A32300EC7DE8 /* GPTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995B7D472CB5A32200EC7DE8 /* GPTViewModel.swift */; };
 		9973231C2CB4E1F800112B2D /* ChatAIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973231B2CB4E1F800112B2D /* ChatAIOSApp.swift */; };
 		9973231E2CB4E1F800112B2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973231D2CB4E1F800112B2D /* ContentView.swift */; };
 		997323202CB4E1FA00112B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9973231F2CB4E1FA00112B2D /* Assets.xcassets */; };
 		997323232CB4E1FA00112B2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997323222CB4E1FA00112B2D /* Preview Assets.xcassets */; };
+		99B7C1BE2CB567D90014527B /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7C1BD2CB567D90014527B /* MessageBubble.swift */; };
+		99DB595B2CB5EB9500DDAE50 /* GPTStreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB595A2CB5EB9500DDAE50 /* GPTStreamViewModel.swift */; };
+		99DB595D2CB5FB4F00DDAE50 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB595C2CB5FB4F00DDAE50 /* ChatMessageView.swift */; };
+		99DB595F2CB5FC6300DDAE50 /* ChatMessageStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB595E2CB5FC6300DDAE50 /* ChatMessageStreamView.swift */; };
+		99DB59612CB6037400DDAE50 /* MessageBubbleStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB59602CB6037400DDAE50 /* MessageBubbleStream.swift */; };
+		99DB59632CB60B2600DDAE50 /* ChatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DB59622CB60B2600DDAE50 /* ChatResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993A4D022CB5CF0600FBE490 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		995B7D472CB5A32200EC7DE8 /* GPTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTViewModel.swift; sourceTree = "<group>"; };
 		997323182CB4E1F800112B2D /* ChatAIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatAIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9973231B2CB4E1F800112B2D /* ChatAIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAIOSApp.swift; sourceTree = "<group>"; };
 		9973231D2CB4E1F800112B2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9973231F2CB4E1FA00112B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997323222CB4E1FA00112B2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99B7C1BD2CB567D90014527B /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		99DB595A2CB5EB9500DDAE50 /* GPTStreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTStreamViewModel.swift; sourceTree = "<group>"; };
+		99DB595C2CB5FB4F00DDAE50 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		99DB595E2CB5FC6300DDAE50 /* ChatMessageStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageStreamView.swift; sourceTree = "<group>"; };
+		99DB59602CB6037400DDAE50 /* MessageBubbleStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleStream.swift; sourceTree = "<group>"; };
+		99DB59622CB60B2600DDAE50 /* ChatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				9973231B2CB4E1F800112B2D /* ChatAIOSApp.swift */,
+				99B7C1BD2CB567D90014527B /* MessageBubble.swift */,
+				995B7D472CB5A32200EC7DE8 /* GPTViewModel.swift */,
+				99DB59602CB6037400DDAE50 /* MessageBubbleStream.swift */,
+				99DB595C2CB5FB4F00DDAE50 /* ChatMessageView.swift */,
+				99DB595E2CB5FC6300DDAE50 /* ChatMessageStreamView.swift */,
+				99DB59622CB60B2600DDAE50 /* ChatResponse.swift */,
+				99DB595A2CB5EB9500DDAE50 /* GPTStreamViewModel.swift */,
 				9973231D2CB4E1F800112B2D /* ContentView.swift */,
+				993A4D022CB5CF0600FBE490 /* ChatMessage.swift */,
 				9973231F2CB4E1FA00112B2D /* Assets.xcassets */,
 				997323212CB4E1FA00112B2D /* Preview Content */,
 			);
@@ -83,6 +107,8 @@
 			dependencies = (
 			);
 			name = ChatAIOS;
+			packageProductDependencies = (
+			);
 			productName = ChatAIOS;
 			productReference = 997323182CB4E1F800112B2D /* ChatAIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,8 @@
 				Base,
 			);
 			mainGroup = 9973230F2CB4E1F800112B2D;
+			packageReferences = (
+			);
 			productRefGroup = 997323192CB4E1F800112B2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DB59632CB60B2600DDAE50 /* ChatResponse.swift in Sources */,
+				99DB595B2CB5EB9500DDAE50 /* GPTStreamViewModel.swift in Sources */,
+				995B7D482CB5A32300EC7DE8 /* GPTViewModel.swift in Sources */,
+				99DB595F2CB5FC6300DDAE50 /* ChatMessageStreamView.swift in Sources */,
 				9973231E2CB4E1F800112B2D /* ContentView.swift in Sources */,
+				99DB595D2CB5FB4F00DDAE50 /* ChatMessageView.swift in Sources */,
+				99B7C1BE2CB567D90014527B /* MessageBubble.swift in Sources */,
+				993A4D032CB5CF0600FBE490 /* ChatMessage.swift in Sources */,
+				99DB59612CB6037400DDAE50 /* MessageBubbleStream.swift in Sources */,
 				9973231C2CB4E1F800112B2D /* ChatAIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +306,13 @@
 				DEVELOPMENT_TEAM = 7C393F9A33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyChatAI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +337,13 @@
 				DEVELOPMENT_TEAM = 7C393F9A33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyChatAI;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
