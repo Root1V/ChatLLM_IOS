@@ -16,7 +16,7 @@ Si te sirve o te gusta, no te olvides de darle algunas estrellas al repositorio.
 
 - Xcode 13 o superior
 - iOS 15.0 o superior
-- Clave de API de OpenAI
+- Clave de API de OpenAI Streaming
 
 ## Instalación
 
