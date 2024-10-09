@@ -2,7 +2,7 @@
 
 ¡Bienvenido a la aplicación de chat construida con SwiftUI y la API de ChatGPT! Esta aplicación te permite interactuar con el modelo de lenguaje de OpenAI en tiempo real, enviando mensajes y recibiendo respuestas de manera dinámica y atractiva. La interfaz está diseñada para ser intuitiva, lo que la convierte en una herramienta ideal para experimentar con las capacidades de conversación de la inteligencia artificial.
 
-![Demo de la aplicación](ruta/a/tu/imagen/demo.png) <!-- Asegúrate de reemplazar la ruta con la ruta de tu imagen -->
+Si te sirve o te gusta, no te olvides de darle algunas estrellas al repositorio.
 
 ## Características
 
@@ -22,7 +22,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+   git clone https://github.com/Root1V/ChatLLM_IOS.git
 
 
 
